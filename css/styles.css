@@ -1,6 +1,7 @@
 #title {
     background-color: #ff4c68;
     color: white;
+
 }
 
 body {
@@ -33,6 +34,9 @@ p {
 
 #features {
     text-align: center;
+    background-color: white;
+    position: relative;
+
 }
 
 #features i {
@@ -48,8 +52,12 @@ p {
     padding: 5%;
 }
 
+.title-container {
+    padding: 3% 15% 7%;
+}
+
 .container-fluid {
-    padding: 3% 15%;
+    
 }
 
 
@@ -82,8 +90,9 @@ p {
 /* TItle Image */
 
 .title-img {
-    transform: rotate(20deg);
-    width: 60%;
+    transform: rotate(25deg);
+    width: 30%;
+    position: absolute;
 }
 
 /* Testimonial Section */
