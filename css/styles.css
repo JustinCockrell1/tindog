@@ -134,3 +134,40 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* Cta section */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+    
+}
+
+#cta h3 {
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer i {
+    margin: 0 10px;
+}
+
+@media screen and (max-width:993px) {
+    .title-img {
+        position: static;
+        width: 60%;
+        transform: rotate(0deg);
+
+    }
+    #title {
+        text-align: center;
+    }
+}
